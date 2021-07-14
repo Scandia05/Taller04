@@ -5,6 +5,7 @@ public class DGeofisicos {
     private int afectados;
     private int impactoEcon;
 
+
     public String getTipo() {
         return tipo;
     }
@@ -45,11 +46,22 @@ public class DGeofisicos {
         this.impactoEcon = impactoEcon;
     }
 
-    public DGeofisicos(String tipo, String fecha, String lugar, int afectados, int impactoEcon) {
+    public DGeofisicos() {
         this.tipo = tipo;
         this.fecha = fecha;
         this.lugar = lugar;
         this.afectados = afectados;
         this.impactoEcon = impactoEcon;
     }
+
+
+
+
+
+
+
+
+
+
+
 }
